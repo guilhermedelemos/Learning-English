@@ -27,10 +27,14 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: guilhermelemos
 github_username:  guilhermedelemos
 
+#permalink: /:categories/:year/:month/:day/:title:output_ext
+permalink: /:categories/:title:output_ext
+
 # Build settings
-theme: minima
+#theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -51,3 +55,22 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+collections:
+  authors:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "authors"
+    values:
+      layout: "author"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"

@@ -1,5 +1,6 @@
 ---
 layout: post
+author: guilherme
 title:  "Welcome to Jekyll!"
 date:   2020-09-19 15:04:09 -0300
 categories: jekyll update
