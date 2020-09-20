@@ -4,12 +4,3 @@
 - name: Learn
   link: /learn/
   icon: fas fa-graduation-cap
-- name: Tips
-  link: /tips/
-  icon: far fa-comments
-- name: Authors
-  link: /authors/
-  icon: fas fa-user-tie
-- name: About
-  link: /about/
-  icon: fas fa-question
