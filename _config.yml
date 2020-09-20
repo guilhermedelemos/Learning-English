@@ -30,9 +30,11 @@ github_username:  guilhermedelemos
 #permalink: /:categories/:year/:month/:day/:title:output_ext
 permalink: /:categories/:title:output_ext
 
+encoding: UTF-8
+
 # Build settings
 #theme: minima
-plugins:
+plugins: 
   - jekyll-feed
   - jekyll-sitemap
 
@@ -55,22 +57,22 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-collections:
-  authors:
+collections: 
+  authors: 
     output: true
 
-defaults:
-  - scope:
+defaults: 
+  - scope: 
       path: ""
       type: "authors"
-    values:
+    values: 
       layout: "author"
-  - scope:
+  - scope: 
       path: ""
       type: "posts"
-    values:
+    values: 
       layout: "post"
-  - scope:
+  - scope: 
       path: ""
-    values:
+    values: 
       layout: "default"
