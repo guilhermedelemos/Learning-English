@@ -1,8 +1,15 @@
 - name: Home
   link: /
+  icon: fas fa-home
+- name: Learn
+  link: /learn/
+  icon: fas fa-graduation-cap
+- name: Tips
+  link: /tips/
+  icon: far fa-comments
+- name: Authors
+  link: /authors/
+  icon: fas fa-user-tie
 - name: About
   link: /about/
-- name: Blog
-  link: /blog/
-- name: Staff
-  link: /staff/
+  icon: fas fa-question
