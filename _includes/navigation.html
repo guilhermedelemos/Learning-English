@@ -1,7 +1,7 @@
 <nav>
     <div class="docs-top-utilities d-flex justify-content-end align-items-center">
         {% for item in site.data.navigation %}
-        <a href="{{ site.baseurl }}{{ item.link }}" class="btn btn-{% if page.url != item.link %}outline-{% endif %}primary d-none d-lg-flex">
+        <a href="{{ item.link }}" class="btn btn-{% if page.url != item.link %}outline-{% endif %}primary d-none d-lg-flex">
             <i class="{{ item.icon }}"></i>&nbsp;{{ item.name }}
         </a>&nbsp;
         {% endfor %}

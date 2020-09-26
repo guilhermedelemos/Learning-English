@@ -30,7 +30,7 @@ description: For Portuguese speakers
                                 <div class="card-text">
                                     {{ post.introduction | strip_html | truncatewords: 10 }}
                                 </div>
-                                <a class="card-link-mask" href="{{ site.baseurl }}/learn#{{ post.article_id }}"></a>
+                                <a class="card-link-mask" href="/learn#{{ post.article_id }}"></a>
                             </div><!--//card-body-->
                         </div><!--//card-->
                     </div><!--//col-->
