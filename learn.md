@@ -20,18 +20,19 @@ permalink: /learn/
                         <span class="theme-icon-holder mr-2">{% if post.icon %}{{ post.icon }}{% else %}<i class="fas fa-map-signs"></i>{% endif %}</span>{{ post.title }}
                     </a>
                 </li>
-				{% for section in post.sections %}
+                {% for section in post.sections %}
                 <li class="nav-item"><a class="nav-link scrollto" href="#{{ section[0] }}">{{ section[1] }}</a></li>
-				{% endfor %}
-				{% endfor %}
+                {% endfor %}
+                {% endfor %}
             </ul>
         </nav><!--//docs-nav-->
     </div><!--//docs-sidebar-->
     <div class="docs-content">
         <div class="container">
             {% for post in filtered_posts %}
-            {{ post.content }}<br/>
+            {{ post.content }}
             {% endfor %}
+            {% include footer.html %}
         </div> 
     </div>
 </div><!--//docs-wrapper-->

@@ -42,7 +42,7 @@ introduction: "An extensive list of irregular verbs."
                 <td><em>{{ verb.pastTense }}</em></td>
                 <td><em>{{ verb.pastParticiple }}</em></td>
                 <td>{{ verb.portuguese }}</td>
-                <td class="text-center">{% if verb.multipleMeaning %}<span class="badge badge-danger">Yes</span>{% endif %}</td>
+                <td class="text-center">{% if verb.multipleMeaning %}<span class="badge badge-danger">Yes</span>{% else %}&nbsp;{% endif %}</td>
             </tr>
             {% endfor %}
         </table>
