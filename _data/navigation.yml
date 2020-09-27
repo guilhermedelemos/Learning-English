@@ -8,7 +8,7 @@
   hidden: false
 - name: Tips
   link: /tips/
-  icon: fas fa-graduation-cap
+  icon: fas fa-lightbulb
   hidden: false
 - name: Lessons
   link: /lessons/
