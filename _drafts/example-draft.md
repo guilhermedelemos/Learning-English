@@ -3,7 +3,7 @@ layout: post
 author: guilherme
 title: "Draft Example"
 # date: 2020-09-27 03:10:00 -0000
-categories: lesson
+categories: tips
 tags: ["example", "draft"]
 icon: <i class="fas fa-stream"></i>
 article_id: draft-example-1-e419da3b-253e-4b7b-947f-2ec318e5b0c6

@@ -3,7 +3,7 @@ layout: chapter
 title: Learn
 permalink: /learn/
 ---
-{% assign filtered_posts = site.posts | where: 'categories', 'lesson' | sort: 'date' %}
+{% assign filtered_posts = site.posts | where: 'categories', 'lesson' | sort: 'order' %}
 <div class="docs-wrapper">
     <div id="docs-sidebar" class="docs-sidebar">
         <div class="top-search-box d-lg-none p-3">
