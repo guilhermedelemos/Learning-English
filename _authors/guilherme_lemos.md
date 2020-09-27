@@ -1,6 +1,7 @@
 ---
-short_name: guilherme
 name: Guilherme de Lemos
+short_name: guilherme
+github: guilhermedelemos
 position: Quality Assurance Engineer
 icon: <i class="fas fa-swimmer"></i>
 layout: author

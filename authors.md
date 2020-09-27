@@ -23,8 +23,9 @@ permalink: /authors/
                         <div class="card-body">
                             <h5 class="card-title mb-3">
                                 <span class="theme-icon-holder card-icon-holder mr-2">
-                                    {% if author.icon %}
-                                    {{ author.icon }}
+                                    {% if author.github %}
+                                    {% avatar {{ author.github }} %}
+                                    {% elsif author.icon %}{{ author.icon }}
                                     {% else %}
                                     <i class="fas fa-user"></i>
                                     {% endif %}
