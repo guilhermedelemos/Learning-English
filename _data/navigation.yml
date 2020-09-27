@@ -9,7 +9,7 @@
 - name: Tips
   link: /tips/
   icon: fas fa-graduation-cap
-  hidden: true
+  hidden: false
 - name: Lessons
   link: /lessons/
   icon: fas fa-graduation-cap

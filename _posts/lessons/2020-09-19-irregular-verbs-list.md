@@ -3,6 +3,7 @@ author: guilherme
 title: "Irregular Verbs List"
 date: 2020-09-19 21:43:00 -0300
 categories: lesson
+tags: ["irregular", "verbs", "lesson"]
 icon: <i class="fas fa-stream"></i>
 article_id: irregular-verbs-78be42cd-43a5-49b7-9f48-7fbf44c9f5fc
 sections: [

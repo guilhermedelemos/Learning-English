@@ -16,7 +16,7 @@ permalink: /tips/
     <div class="container">
         <div class="docs-overview py-5">
             <div class="row justify-content-center">
-                {% assign filtered_posts = site.posts | where: 'categories', 'tips' %}
+                {% assign filtered_posts = site.posts | where: 'categories', 'tips' | sort: 'date' | reverse %}
                 {% for post in filtered_posts %}
                 <div class="col-12 col-lg-4 py-3">
                     <div class="card shadow-sm">

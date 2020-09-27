@@ -58,6 +58,10 @@ plugins:
 collections: 
   authors: 
     output: true
+  # tips: 
+    # output: true
+  # lessons: 
+    # output: true
 
 defaults: 
   - scope: 
