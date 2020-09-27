@@ -1,5 +1,13 @@
 <nav>
     <div class="docs-top-utilities d-flex justify-content-end align-items-center">
+        {% if site.data.social %}
+        <ul class="social-list list-inline mx-md-3 mx-lg-5 mb-0 d-none d-lg-flex">
+            {% for item in site.data.social %}
+            <li class="list-inline-item"><a href="{{ item.link }}" target="_blank"><i class="{{ item.icon }}"></i></a></li>
+            {% endfor %}
+        </ul><!--//social-list-->
+        {% endif %}
+
         {% for item in site.data.navigation %}
         <a href="{{ item.link }}" class="btn btn-{% if page.url != item.link %}outline-{% endif %}primary d-none d-lg-flex">
             <i class="{{ item.icon }}"></i>&nbsp;{{ item.name }}
