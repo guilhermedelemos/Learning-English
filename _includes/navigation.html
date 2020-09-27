@@ -1,3 +1,4 @@
+{% assign filtered = site.data.navigation | where: 'hidden', false %}
 <nav>
     <div class="docs-top-utilities d-flex justify-content-end align-items-center">
         {% if site.data.social %}
@@ -8,7 +9,7 @@
         </ul><!--//social-list-->
         {% endif %}
 
-        {% for item in site.data.navigation %}
+        {% for item in filtered %}
         <a href="{{ item.link }}" class="btn btn-{% if page.url != item.link %}outline-{% endif %}primary d-none d-lg-flex">
             <i class="{{ item.icon }}"></i>&nbsp;{{ item.name }}
         </a>&nbsp;

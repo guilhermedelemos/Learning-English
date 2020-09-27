@@ -1,6 +1,24 @@
 - name: Home
   link: /
   icon: fas fa-home
+  hidden: false
 - name: Learn
   link: /learn/
   icon: fas fa-graduation-cap
+  hidden: false
+- name: Tips
+  link: /tips/
+  icon: fas fa-graduation-cap
+  hidden: true
+- name: Lessons
+  link: /lessons/
+  icon: fas fa-graduation-cap
+  hidden: true
+- name: Authors
+  link: /authors/
+  icon: fas fa-graduation-cap
+  hidden: true
+- name: About
+  link: /about/
+  icon: fas fa-graduation-cap
+  hidden: true
