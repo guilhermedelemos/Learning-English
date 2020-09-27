@@ -79,3 +79,5 @@ defaults:
       path: ""
     values: 
       layout: "default"
+
+exclude: [vendor]
