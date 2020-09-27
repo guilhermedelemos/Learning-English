@@ -2,6 +2,14 @@
 
 ## Execute
 
+### Install dependencies
+
 ```
-$ bundle exec jekyll serve --livereload
+$ bundle install
+```
+
+### Execute locally
+
+```
+$ bundle exec jekyll serve --drafts
 ```
